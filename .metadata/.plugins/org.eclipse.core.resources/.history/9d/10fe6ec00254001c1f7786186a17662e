@@ -1,0 +1,26 @@
+package com.training.nagarro.nagp.designpattern.observer.example;
+
+public class Test {
+	
+	public static void main(String[] args)
+	{
+	Channel exampleChannel = new Channel();
+	
+	Subscriber s1 = new Subscriber("Manjeet");
+	Subscriber s2 = new Subscriber("Anshul");
+	
+	
+	
+	exampleChannel.subscribe(s1);
+	exampleChannel.subscribe(s2);
+	
+	
+	s1.subscribeChannel(exampleChannel);
+	s2.subscribeChannel(exampleChannel);
+	
+	
+	exampleChannel.upload("Explorig Design Pattern");
+	
+	}
+	
+}

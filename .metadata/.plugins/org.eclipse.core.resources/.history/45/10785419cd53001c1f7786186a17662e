@@ -1,0 +1,16 @@
+package com.training.nagarro.nagp.designpattern.observer.example;
+
+public class Test {
+	
+	Channel xyz = new Channel();
+	
+	Subscriber s1 = new Subscriber("Manjeet");
+	Subscriber s2 = new Subscriber("Anshul");
+	Subscriber s3 = new Subscriber("Jitesh");
+	Subscriber s4 = new Subscriber("Aarzoo");
+	Subscriber s5 = new Subscriber("Irfan");
+	
+	
+	
+
+}
