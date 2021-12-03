@@ -1,5 +1,0 @@
-package com.training.nagarro.nagp.designpattern.observer.example;
-
-public class Subscriber {
-
-}
